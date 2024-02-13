@@ -14,6 +14,9 @@ env:
   E2E: emitc-e2e
   E2E_VERSION: 3
 
+permissions:
+  contents: read
+
 jobs:
   build-llvm:
     name: Build LLVM
